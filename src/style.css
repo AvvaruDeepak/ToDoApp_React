@@ -6,6 +6,10 @@
     padding: 20px;
 }
 
+#title {
+    font-style: italic;
+}
+
 .task-form {
     display: flex;
     justify-content: center;
@@ -40,7 +44,7 @@
 }
 
 .task-section {
-    border-radius: 4px;
+    border-radius: 10px;
     width: 30%;
     padding: 10px;
     border: 2px solid black;
@@ -48,7 +52,48 @@
 
 .task-section h3 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
+}
+
+
+
+
+
+.deleteTask {
+    background-color: rgb(211, 73, 61);
+    border-radius: 10px;
+    margin: 2px;
+}
+.clearAll {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.MoveToOngoing {
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 2px;
+}
+.MoveToCompleted {
+    background-color: green;
+    border-radius: 10px;
+    margin: 2px;
+}
+.MoveToTodo {
+    border-radius: 10px;
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: rgb(120, 181, 207);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 2px;
 }
 
 
